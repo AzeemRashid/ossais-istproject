@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0;
+   
+    color: black;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0;
+    font-size: 24px;
+    
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero {
+    background-image: url(img/bac.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature-image {
+    width: 200px;
+    height: 200px;
+    
+    margin-right: 100px;
+}
+.feature-content {
+    flex: 1;
+}
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.benefit {
+    text-align: center;
+    width: 30%;
+}
+.benefit-icon {
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+.last{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.map, .stats {
+    width: 100%;
+    margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+    .map, .stats {
+        width: 48%;
+    }
+    .map {
+        margin-right: 4%;
+    }
+}
+.map-placeholder {
+    background-color: #bfdbfe;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.map-placeholder span {
+    font-size: 1.125rem;
+    color: #3b82f6;
+}
+.stats h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.stat {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-bottom: 8px;
+}
+p {
+    font-size: 1.125rem;
+    margin-bottom: 16px;
+}
